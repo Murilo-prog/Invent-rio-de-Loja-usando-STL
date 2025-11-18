@@ -138,7 +138,8 @@ int main() {
          << loja.valorTotalInventario() << "\n";
 
     loja.listarCategoria("Eletrônicos");
-
+    loja.listarCategoria("Vestuário");
+    
     loja.registrarVenda("Camisa Polo", 3);
     loja.registrarVenda("TV Samsung", 1);
 
